@@ -1,0 +1,51 @@
+.panel2
+{
+	background-color: #101010;
+	padding:20px;
+	margin-top: 70px;
+	border-bottom: 2px solid #5624ad;
+}
+
+
+
+.panel2headline h2
+{
+	width: 20%;
+	margin: auto;
+	min-width: 200px;
+	color: #5624ad;
+	font-size: 26px; 
+	border-bottom: 1px solid #5624ad;
+	
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.panel2para
+{
+	color: #5384af;
+	margin-top: 30px;
+	
+	font-size: 18px;
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 0.6px;
+	overflow-x: hidden;
+
+}
+
+@media only screen and (max-width: 992px) {
+
+	.panel2headline h2
+	{
+		font-size: 34px;
+	}
+
+	.panel2para
+	{
+		font-size: 22px;
+		padding: 10px;
+	}
+
+}

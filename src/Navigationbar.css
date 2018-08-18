@@ -1,0 +1,256 @@
+.navbar 
+{
+	background-color: #101010;
+	color: #5384af;
+	padding: 20px;
+	border-bottom: 1px solid #5624ad;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 995;
+}
+.navbar .col-3 img 
+{
+	width: 120px;
+}
+
+ .navbar a
+ {
+ 	color: #5384af;
+ 	text-decoration: none;
+ }
+
+ .mobilenavbar
+ {
+ 	text-align: center;
+ 	color: #5384af;
+ 	z-index: 999;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	background-color: #101010;
+ 	
+ 	text-align: center;
+ 	
+ 	border-bottom: 1px solid #5624ad;
+ 	 height: 100px;
+ 	overflow-y: hidden;
+
+ 	-webkit-transition: height 2s; /* Safari */
+    transition: height 2s;
+    display: none;
+
+
+ }
+
+.mobilenavbarelongated
+
+{
+		-webkit-transition: height 2s; /* Safari */
+    transition: height 2s;
+    transition-delay: 2.5s;
+	height: 100% !important;
+}
+.mobilenavbarelongatedreverse
+{
+	-webkit-transition: height 2s; /* Safari */
+    transition: height 1s;
+    transition-delay: 0s;
+	height: 100px !important;
+}
+
+ .mobilenavbar .row h2
+ {
+ 	text-align: center;
+ 	font-size: 3rem;
+ 	margin: auto;
+ 	margin-top: 25px;
+ }
+  .mobilenavbar .row img 
+  {
+  	width: 40%;
+  	height: 40%;
+  	margin-left: 30%;
+  	margin-top: 0px;
+  	
+  }
+
+  .closeicon
+  {
+  	height: 120px;
+  	padding-bottom: 20px;
+  	text-align: left !important;
+  	padding: 25px;
+  	
+
+  }
+   .closeicon i
+   {
+  		color: #5624ad;
+  		font-size: 3rem;
+  		
+   }
+   .wrong
+   {
+   	margin-top: -120px;
+   
+   }
+
+   .animatingbars
+   {
+   	animation-name: removebars;
+   	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	
+  	animation-fill-mode: forwards;
+  	
+
+	-webkit-transition: margin 2s; /* Safari */
+    transition: margin 10s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    margin-left: -30%;
+  	
+
+
+
+   }
+
+
+   .animatingwrong
+   {
+
+   			animation-name: bringcross;
+   	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 1s;
+  	animation-fill-mode: forwards;
+
+   }
+
+.upperimg
+{
+	transition: margin 1s;
+	transition-delay: 2s;
+	margin-top: -100px;
+}
+.lowerimg
+{
+	transition: margin 1s;
+	
+	margin-top: 0px;
+}
+
+.animatingbarsreverse
+{
+	 	animation-name: bringbars;
+   	animation-iteration-count: 1;
+  	animation-duration: 1s;
+  	animation-delay: 1s;
+  	animation-fill-mode: forwards;
+
+}
+
+   .animatingwrongreverse
+   {
+
+   			animation-name: removecross;
+   	animation-iteration-count: 1;
+  	animation-duration: 2s;
+  	animation-delay: 0s;
+  	animation-fill-mode: forwards;
+
+   }
+
+
+
+@keyframes removebars
+{
+	0% {
+		
+	}
+	100%
+	{
+		margin-left: -30%;
+		
+		
+	}
+}
+
+@keyframes bringcross
+{
+	0%
+	{
+		margin-top: -120px;
+	}
+	100%
+	{
+		margin-top: 0px;
+	}
+}
+
+@keyframes bringbars
+{
+	0% {
+		margin-left: -30%;
+	}
+	100%
+	{
+		margin-left: 0px;
+		
+	}
+}
+
+@keyframes removecross
+{
+	0%
+	{
+		margin-top: 0px;
+	}
+	100%
+	{
+		margin-top: -120px;
+	}
+}
+
+
+
+
+
+
+.closeicon button
+{
+	background-color: #101010;
+	border:none;
+	outline: none;
+}
+
+.closeicon button:hover
+{
+	cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+.navbar
+{
+	display: none;
+}
+.mobilenavbar
+{
+	display: block;
+}
+
+} 
+
+
+
+
+
+

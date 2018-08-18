@@ -1,0 +1,72 @@
+.individual
+{
+	text-align: center;
+	margin-top: 200px;
+	color: #5624ad;
+	margin-bottom: 300px;
+	background-color: #101010;
+	padding: 80px 10px;
+	font-weight: 200;
+	border-left: 2px solid #5624ad;
+}
+
+.individual i
+{
+	font-size: 150px;
+	color: #5624ad;
+	margin:auto;
+
+}
+.individual .row .col-8 .row 
+{
+	font-size: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.individual .details .col-10 , .individual .details .col-12 
+{
+	margin: auto;
+	font-size: 26px;
+}
+
+.individual .details
+{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.individual .requirements
+{
+	margin-top: 20px;
+	font-size: 28px;
+	text-align: center;
+	color: #5384af;
+	margin-left: 0px;
+}
+.images .col-3 , .images .col-6 , .images .col-5 , .images .col-8 , .images .col-10
+{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+.images img
+{
+	
+	width: 100%;
+
+
+}
+
+.individual .demo
+{
+	margin-top: 80px;
+	color: #5642ad;
+}
+
+
+

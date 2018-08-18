@@ -1,0 +1,49 @@
+
+
+.headline
+{
+	width: 15%;
+	margin-left: 42.5%;
+	padding-bottom: 5px;
+	
+	margin-top: 85px;
+	text-align: center;
+	color: #5624ad;
+	font-size: 26px;
+	font-weight: 200;
+	border-bottom: 1px solid #5624ad;
+	font-size-adjust: 0.3;
+	font-stretch: ultra-condensed;
+	
+}
+
+
+
+.didnotfind
+{
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	background-color: #101010;
+	color: #5624ad;
+	padding: 30px 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #5624ad;
+	letter-spacing: 3px;
+	font-weight: 200;
+}
+.didnotfind h2
+{
+	font-size: 32px;
+	font-weight: 100;
+}
+
+.didnotfind h3
+{
+	font-size: 22px;
+	margin-top: 30px;
+	font-weight: 100;
+	line-height: 30px;
+}
+
+
